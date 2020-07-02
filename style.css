@@ -2,7 +2,7 @@ body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
-h1 {
+.name {
     color: #EC4B75FF;
     font-size: 200%;
 }
@@ -17,7 +17,6 @@ h1 {
     width: 130%;
 }
 #top {
-    border: 1px solid blue;
     background-image: url(images/header-bg.png);
     background-size: 100%;
 }
@@ -32,7 +31,6 @@ section {
     padding: 10px 20px;
 }
 #bottom {
-    border: 1px solid blue;
     background-image: url(images/biography-bg.png);
     background-size: 100%;
 }
@@ -49,4 +47,15 @@ section {
 
 .work-h-w img {
     width: 100%;
+}
+.footer {
+    text-align: center;
+    background-image: url("images/footer-bg.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.last {
+    color: white;
+    background-color:#EC4B75FF;
+    padding: 20px;
 }
