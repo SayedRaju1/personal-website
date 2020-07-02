@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    color: #EC4B75FF;
+    font-size: 200%;
+}
+.half-width {
+    width: 30%;
+    float: left;
+    margin-top: 150px;
+    margin-left: 10%;
+    padding-left: 5%;
+}
+.half-width img {
+    width: 130%;
+}
+#top {
+    border: 1px solid blue;
+    background-image: url(images/header-bg.png);
+    background-size: 100%;
+}
+section {
+    height: 700px;
+}
+.fb {
+    text-decoration: none;
+    background-color:#EC4B75FF;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+#bottom {
+    border: 1px solid blue;
+    background-image: url(images/biography-bg.png);
+    background-size: 100%;
+}
+.work {
+    vertical-align: middle;
+}
+
+.work-h-w {
+    width:20%;
+    float: left;
+    padding: 5%;
+    margin-left: 2%;
+}
+
+.work-h-w img {
+    width: 100%;
+}
