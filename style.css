@@ -4,17 +4,21 @@ body {
 }
 .name {
     color: #EC4B75FF;
-    font-size: 200%;
+    font-size: 60px;
+    font-family: 'Ubuntu', sans-serif;
 }
 .half-width {
     width: 30%;
     float: left;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-left: 10%;
     padding-left: 5%;
 }
 .half-width img {
-    width: 130%;
+    width: 100%;
+}
+.half-width p {
+    color: gray;
 }
 #top {
     background-image: url(images/header-bg.png);
@@ -25,17 +29,21 @@ section {
 }
 .fb {
     text-decoration: none;
-    background-color:#EC4B75FF;
+    background-image: linear-gradient(45deg, #EC5094FF, #ED4B72FF);
     color: white;
     border-radius: 5px;
     padding: 10px 20px;
+}
+.fb:hover{
+    background-color: orange;
 }
 #bottom {
     background-image: url(images/biography-bg.png);
     background-size: 100%;
 }
 .work {
-    vertical-align: middle;
+    text-align: center;
+    margin-top: 100px;
 }
 
 .work-h-w {
@@ -56,6 +64,25 @@ section {
 }
 .last {
     color: white;
-    background-color:#EC4B75FF;
+    background-image: linear-gradient(45deg, #EC5094FF, #ED4B72FF);
     padding: 20px;
+    margin: 0% 20% 0% 20% ;
+    border-radius: 10px;
+}
+#jhon {
+    padding-top: 50px;
+
+}
+#ceo {
+    color: gray;
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+#clients {
+    padding-bottom: 100px;
+}
+.right {
+    margin-top: 100px;
+    font-size: smaller;
+    color: gray;
 }
